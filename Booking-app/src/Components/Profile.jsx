@@ -14,28 +14,28 @@ function Profile() {
   console.log({ data });
   const { dates, options, city } = useContext(SearchContext);
   console.log(id);
-  console.log(dates[0].startDate);
+  // console.log(dates[0].startDate);
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString();
   };
 
   const { user } = useContext(AuthContext);
-  console.log({user})
-  const bookings = {
-    name: data.name,
-    city: data.city,
-    address: data.address,
-    type: data.type,
-    // startdate: dates[0]?.startDate,
-    // enddate: dates[0]?.endDate,
-    options: {
-      adult: options.adult,
-      children: options?.kids,
-      rooms: options.room,
-    },
+  const username = user.details._id;
+  const array = {
+    hotelID: '66445c68bf8ee8001f48aedb',
+    start: formatDate(dates[0]?.startDate),
+    end: formatDate(dates[0]?.endDate)
   };
 
+  const creds = { username: username, array: array };
+  const res = async () => {
+    await axios.post("/api/auth/bookings", creds);
+  };
+
+  res();
+  // console.log(user.details);
+  console.log(creds);
   return (
     <>
       <div className="flex flex-col ">

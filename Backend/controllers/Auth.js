@@ -51,3 +51,20 @@ export const login = async (req, res, next) => {
     next(err);
   }
 };
+
+export const bookings = async (req, res, next) => {
+  try {
+    if (!req.body.array.hotelID) {
+      const result = await User.findOneAndUpdate(
+        { _id: req.body.username },
+        { $push: { bookings: req.body.array } }
+      );
+      res.status(200).json({ message: "Booking added successfully", result });
+      console.log("Updated", result);
+    }
+    // console.log(user.bookings);
+  } catch (error) {
+    console.log(error);
+    next(error);
+  }
+};

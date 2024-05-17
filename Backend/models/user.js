@@ -1,4 +1,20 @@
 import mongoose from "mongoose";
+import { Schema } from "mongoose";
+
+const bookingSchema = new Schema({
+  hotelID: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+  },
+  start: {
+    type: Date,
+    required: true,
+  },
+  end: {
+    type: Date,
+    required: true,
+  },
+});
 const UserSchema = new mongoose.Schema(
   {
     username: {
@@ -19,9 +35,7 @@ const UserSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    bookings: {
-      type: [String],
-    },
+    bookings: [bookingSchema],
   },
   { timestamps: true }
 );
