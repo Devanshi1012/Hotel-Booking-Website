@@ -1,0 +1,386 @@
+[
+  {
+      "destination": "domestic",
+      "id": 1001,
+      "place": "Mumbai",
+      "price": "₹5000",
+      "airport": "BOM",
+      "hotels": [
+          { "name": "Sunset Beach Resort", "price": "₹5500", "image": "" },
+          { "name": "Mountain View Hotel", "price": "₹4800" },
+          { "name": "Golden Oasis Inn", "price": "₹5200" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1002,
+      "place": "Delhi",
+      "price": "₹4500",
+      "airport": "DEL",
+      "hotels": [
+          { "name": "Royal Palace Hotel", "price": "₹4800" },
+          { "name": "City Lights Inn", "price": "₹5200" },
+          { "name": "Grand View Lodge", "price": "₹4600" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1003,
+      "place": "Goa",
+      "price": "₹3500",
+      "airport": "GOI",
+      "hotels": [
+          { "name": "Sunny Beach Resort", "price": "₹3800" },
+          { "name": "Palm Tree Hotel", "price": "₹3200" },
+          { "name": "Sea Breeze Inn", "price": "₹3600" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1004,
+      "place": "Jaipur",
+      "price": "₹4000",
+      "airport": "JAI",
+      "hotels": [
+          { "name": "Heritage Palace", "price": "₹4300" },
+          { "name": "Pink City Resort", "price": "₹3800" },
+          { "name": "Royal Heritage Hotel", "price": "₹4100" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1006,
+      "place": "Bangalore",
+      "price": "₹4200",
+      "airport": "BLR",
+      "hotels": [
+          { "name": "Green Valley Resort", "price": "₹4600" },
+          { "name": "Silicon City Hotel", "price": "₹4800" },
+          { "name": "Garden View Inn", "price": "₹4400" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1007,
+      "place": "Chennai",
+      "price": "₹3800",
+      "airport": "MAA",
+      "hotels": [
+          { "name": "Marina Beach Resort", "price": "₹4200" },
+          { "name": "Cityscape Hotel", "price": "₹3600" },
+          { "name": "Blue Ocean Inn", "price": "₹4000" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1008,
+      "place": "Hyderabad",
+      "price": "₹4500",
+      "airport": "HYD",
+      "hotels": [
+          { "name": "Charminar Palace", "price": "₹4900" },
+          { "name": "Lakeside Resort", "price": "₹4200" },
+          { "name": "Royal Garden Hotel", "price": "₹4700" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1009,
+      "place": "Kolkata",
+      "price": "₹4100",
+      "airport": "CCU",
+      "hotels": [
+          { "name": "Victoria Palace Hotel", "price": "₹4500" },
+          { "name": "Howrah Riverside Resort", "price": "₹4800" },
+          { "name": "City of Joy Inn", "price": "₹4300" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1010,
+      "place": "Varanasi",
+      "price": "₹3700",
+      "airport": "VNS",
+      "hotels": [
+          { "name": "Ganges View Resort", "price": "₹4000" },
+          { "name": "Sacred City Hotel", "price": "₹3500" },
+          { "name": "Sunrise Inn", "price": "₹3800" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1012,
+      "place": "Udaipur",
+      "price": "₹3900",
+      "airport": "UDR",
+      "hotels": [
+          { "name": "Lake Palace Resort", "price": "₹4200" },
+          { "name": "City of Lakes Hotel", "price": "₹3700" },
+          { "name": "Royal Retreat Inn", "price": "₹4000" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1013,
+      "place": "Shimla",
+      "price": "₹3500",
+      "airport": "SLV",
+      "hotels": [
+          { "name": "Snow Valley Resort", "price": "₹3800" },
+          { "name": "Mountain View Hotel", "price": "₹3300" },
+          { "name": "Pine Ridge Inn", "price": "₹3600" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1014,
+      "place": "Manali",
+      "price": "₹4000",
+      "airport": "KUU",
+      "hotels": [
+          { "name": "River Side Retreat", "price": "₹4300" },
+          { "name": "Valley View Resort", "price": "₹3800" },
+          { "name": "Snow Peak Lodge", "price": "₹4100" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1015,
+      "place": "Kochi",
+      "price": "₹4200",
+      "airport": "COK",
+      "hotels": [
+          { "name": "Backwater Bliss Resort", "price": "₹4500" },
+          { "name": "Harbour View Hotel", "price": "₹4000" },
+          { "name": "Coconut Grove Inn", "price": "₹4300" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1016,
+      "place": "Pune",
+      "price": "₹3800",
+      "airport": "PNQ",
+      "hotels": [
+          { "name": "Hilltop Retreat", "price": "₹4100" },
+          { "name": "City Lights Hotel", "price": "₹3600" },
+          { "name": "Serenity Inn", "price": "₹3900" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1017,
+      "place": "Mysore",
+      "price": "₹3500",
+      "airport": "MYQ",
+      "hotels": [
+          { "name": "Palace View Resort", "price": "₹3800" },
+          { "name": "Garden City Hotel", "price": "₹3300" },
+          { "name": "Royal Heritage Inn", "price": "₹3600" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1018,
+      "place": "Ooty",
+      "price": "₹4000",
+      "airport": "CJB",
+      "hotels": [
+          { "name": "Hillcrest Retreat", "price": "₹4300" },
+          { "name": "Lakeview Hotel", "price": "₹3800" },
+          { "name": "Green Valley Lodge", "price": "₹4100" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1019,
+      "place": "Agra",
+      "price": "₹3900",
+      "airport": "AGR",
+      "hotels": [
+          { "name": "Taj Mahal View Hotel", "price": "₹4200" },
+          { "name": "Agra Heights Inn", "price": "₹3600" },
+          { "name": "Golden Crown Resort", "price": "₹4000" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1020,
+      "place": "Kodaikanal",
+      "price": "₹4100",
+      "airport": "IXM",
+      "hotels": [
+          { "name": "Misty Mountain Resort", "price": "₹4400" },
+          { "name": "Lakefront Hotel", "price": "₹3900" },
+          { "name": "Valley Retreat Inn", "price": "₹4200" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1021,
+      "place": "Darjeeling",
+      "price": "₹3800",
+      "airport": "IXB",
+      "hotels": [
+          { "name": "Himalayan View Resort", "price": "₹4100" },
+          { "name": "Tea Garden Hotel", "price": "₹3600" },
+          { "name": "Mountain Bliss Inn", "price": "₹3900" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1022,
+      "place": "Gangtok",
+      "price": "₹3500",
+      "airport": "PYG",
+      "hotels": [
+          { "name": "Hilltop Haven Resort", "price": "₹3800" },
+          { "name": "Valley View Hotel", "price": "₹3300" },
+          { "name": "Snow Valley Inn", "price": "₹3600" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1023,
+      "place": "Coorg",
+      "price": "₹4000",
+      "airport": "MYQ",
+      "hotels": [
+          { "name": "Coffee Plantation Resort", "price": "₹4300" },
+          { "name": "Forest Retreat Hotel", "price": "₹3800" },
+          { "name": "Misty Woods Inn", "price": "₹4100" }
+      ]
+  },
+  {
+      "destination": "domestic",
+      "id": 1024,
+      "place": "Gulmarg",
+      "price": "₹4200",
+      "airport": "SXR",
+      "hotels": [
+          { "name": "Snowcrest Resort", "price": "₹4500" },
+          { "name": "Mountain Lodge", "price": "₹4000" },
+          { "name": "Pineview Hotel", "price": "₹4300" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1025,
+      "place": "Paris",
+      "price": "₹12000",
+      "airport": "CDG",
+      "hotels": [
+          { "name": "Eiffel Tower Suites", "price": "₹13500" },
+          { "name": "Champs-Élysées Plaza Hotel", "price": "₹12500" },
+          { "name": "Louvre Palace Hotel", "price": "₹13000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1026,
+      "place": "New York City",
+      "price": "₹16000",
+      "airport": "JFK",
+      "hotels": [
+          { "name": "Times Square Hotel", "price": "₹18500" },
+          { "name": "Central Park Plaza", "price": "₹17500" },
+          { "name": "Empire State Suites", "price": "₹17000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1027,
+      "place": "London",
+      "price": "₹10000",
+      "airport": "LHR",
+      "hotels": [
+          { "name": "Buckingham Palace Hotel", "price": "₹12500" },
+          { "name": "Westminster Abbey Inn", "price": "₹10500" },
+          { "name": "Tower Bridge Suites", "price": "₹11500" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1028,
+      "place": "Tokyo",
+      "price": "₹200000",
+      "airport": "HND",
+      "hotels": [
+          { "name": "Shibuya Skyline Hotel", "price": "₹230000" },
+          { "name": "Shinjuku Garden Inn", "price": "₹210000" },
+          { "name": "Ginza Grand Hotel", "price": "₹220000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1029,
+      "place": "Dubai",
+      "price": "₹30000",
+      "airport": "DXB",
+      "hotels": [
+          { "name": "Burj Khalifa Suites", "price": "₹35000" },
+          { "name": "Palm Jumeirah Resort", "price": "₹33000" },
+          { "name": "Dubai Marina Hotel", "price": "₹30000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1030,
+      "place": "Rome",
+      "price": "₹14000",
+      "airport": "FCO",
+      "hotels": [
+          { "name": "Colosseum View Hotel", "price": "₹16000" },
+          { "name": "Trevi Fountain Suites", "price": "₹15000" },
+          { "name": "Vatican City Inn", "price": "₹15500" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1031,
+      "place": "Sydney",
+      "price": "₹25000",
+      "airport": "SYD",
+      "hotels": [
+          { "name": "Opera House Hotel", "price": "₹29000" },
+          { "name": "Harbour Bridge Suites", "price": "₹27000" },
+          { "name": "Bondi Beach Resort", "price": "₹26000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1032,
+      "place": "Hong Kong",
+      "price": "₹50000",
+      "airport": "HKG",
+      "hotels": [
+          { "name": "Victoria Peak Hotel", "price": "₹60000" },
+          { "name": "Tsim Sha Tsui Inn", "price": "₹55000" },
+          { "name": "Central District Suites", "price": "₹50000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1033,
+      "place": "Barcelona",
+      "price": "₹14000",
+      "airport": "BCN",
+      "hotels": [
+          { "name": "Sagrada Familia Inn", "price": "₹17000" },
+          { "name": "Gothic Quarter Hotel", "price": "₹15000" },
+          { "name": "Barceloneta Beach Resort", "price": "₹16000" }
+      ]
+  },
+  {
+      "destination": "international",
+      "id": 1034,
+      "place": "Singapore",
+      "price": "₹40000",
+      "airport": "SIN",
+      "hotels": [
+          { "name": "Marina Bay Sands", "price": "₹50000" },
+          { "name": "Orchard Road Inn", "price": "₹45000" },
+          { "name": "Sentosa Island Resort", "price": "₹40000" }
+      ]
+  }
+]
