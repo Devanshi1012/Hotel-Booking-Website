@@ -23,9 +23,9 @@ function Profile() {
   const { user } = useContext(AuthContext);
   const username = user.details._id;
   const array = {
-    hotelID: '66445c68bf8ee8001f48aedb',
+    hotelID: id,
     start: formatDate(dates[0]?.startDate),
-    end: formatDate(dates[0]?.endDate)
+    end: formatDate(dates[0]?.endDate),
   };
 
   const creds = { username: username, array: array };

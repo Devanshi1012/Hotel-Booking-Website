@@ -2,6 +2,7 @@ import User from "../models/user.js";
 import bcrypt from "bcryptjs";
 import { createError } from "../utils/error.js";
 import jwt from "jsonwebtoken";
+import mongoose from "mongoose";
 
 export const register = async (req, res, next) => {
   try {
@@ -52,19 +53,90 @@ export const login = async (req, res, next) => {
   }
 };
 
+// export const bookings = async (req, res, next) => {
+//   try {
+//     const user = await User.findOne({ _id: req.body.username });
+
+//     if (!user) {
+//       return res.status(404).json({ message: "User not found" });
+//     }
+
+//     // Check if the booking already exists
+//     const bookingExists = user.bookings.some(
+//       (booking) => booking.hotelID === req.body.array.hotelID
+//     );
+
+//     if (bookingExists) {
+//       return res.status(400).json({ message: "Booking already exists" });
+//     }
+//     const result = await User.findOneAndUpdate(
+//       { _id: req.body.username },
+//       { $push: { bookings: req.body.array } }
+//     );
+//     res.status(200).json({ message: "Booking added successfully", result });
+//     console.log("Updated", result);
+
+//     // console.log(user.bookings);
+//   } catch (error) {
+//     console.log(error);
+//     next(error);
+//   }
+// };
+
 export const bookings = async (req, res, next) => {
   try {
-    if (!req.body.array.hotelID) {
-      const result = await User.findOneAndUpdate(
-        { _id: req.body.username },
-        { $push: { bookings: req.body.array } }
-      );
-      res.status(200).json({ message: "Booking added successfully", result });
-      console.log("Updated", result);
+    // Find the user document
+    const user = await User.findOne({ _id: req.body.username });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
     }
-    // console.log(user.bookings);
+
+    console.log("User bookings:", user.bookings); // Log existing bookings
+    console.log("New booking:", req.body.array); // Log new booking details
+
+    // Ensure the new booking dates are in ISO format
+    const newStart = new Date(req.body.array.start).toISOString();
+    const newEnd = new Date(req.body.array.end).toISOString();
+
+    // Convert hotelID to ObjectId if necessary
+    const newHotelID = new mongoose.Types.ObjectId(req.body.array.hotelID);
+
+    // Check if the booking already exists
+    const bookingExists = user.bookings.some((booking) => {
+      const existingStart = new Date(booking.start).toISOString();
+      const existingEnd = new Date(booking.end).toISOString();
+
+      console.log("Comparing:", {
+        hotelID: booking.hotelID.toString(),
+        existingStart,
+        existingEnd,
+        newStart,
+        newEnd,
+      });
+
+      return (
+        booking.hotelID.equals(newHotelID) &&
+        existingStart === newStart &&
+        existingEnd === newEnd
+      );
+    });
+
+    if (bookingExists) {
+      return res.status(400).json({ message: "Booking already exists" });
+    }
+
+    // Push the new booking
+    user.bookings.push({
+      hotelID: newHotelID,
+      start: new Date(req.body.array.start),
+      end: new Date(req.body.array.end),
+    });
+    const result = await user.save();
+
+    res.status(200).json({ message: "Booking added successfully", result });
   } catch (error) {
-    console.log(error);
+    console.error("Error adding booking:", error);
     next(error);
   }
 };
