@@ -1,0 +1,679 @@
+[{
+  "_id": {
+    "$oid": "66445a46bf8ee8001f48aeda"
+  },
+  "name": "Taj Exotica Resort & Spa",
+  "type": "resort",
+  "city": "goa",
+  "address": "Calwaddo, Salcete, Benaulim, goa 403716",
+  "distance": "Approximately 30 km from Dabolim Airport",
+  "photos": [
+    "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/147/282/971/Pool_(3)_O/Taj-Exotica-Resort-%26-Spa-The-Palm-Pool.jpg?tr=w-780%2Ch-437%2Cfo-auto",
+    "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/147/284/37/Palm_Kitchen3_O/Taj-Exotica-Resort-%26-Spa-The-Palm-Restaurant.jpg?tr=w-780%2Ch-437%2Cfo-auto",
+    "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/147/284/80/Palm_Kitchen6_O/Taj-Exotica-Resort-%26-Spa-The-Palm-Restaurant.jpg?tr=w-780%2Ch-437%2Cfo-auto",
+    "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/147/282/28/05_Luxury_Suite_Sea_View_O/Taj-Exotica-Resort-%26-Spa-The-Palm-Suite.jpg?tr=w-780%2Ch-437%2Cfo-auto"
+  ],
+  "title": "Luxurious beachfront resort",
+  "desc": "Experience unparalleled luxury and comfort at Taj Exotica Resort & Spa. Nestled amidst lush gardens and overlooking the Arabian Sea, this 5-star resort offers world-class amenities and personalized service.",
+  "cheapestPrice": 18500,
+  "rating": 5,
+  "cancel": true,
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "locationScore": 9.5,
+  "featured": true
+},
+{
+  "_id": {
+    "$oid": "66445c68bf8ee8001f48aedb"
+  },
+  "name": "Alila Diwa goa",
+  "type": "hotel",
+  "city": "goa",
+  "address": "48/10, Adao Waddo, Salcete, Majorda, goa 403713",
+  "distance": "Approximately 18 km from Dabolim Airport",
+  "photos": [
+    "https://www.thomascook.com/gfx/785/490/L2ltYWdlcy9pbWFnZV82OTdiMzBhZDhkMDQ0ZGRhOTM0NDdhYjI3NmIyMjVjNi5qcGc.webp",
+    "https://www.thomascook.com/gfx/785/490/L2ltYWdlcy9pbWFnZV85NzczMzFmM2Y0MWY0YzdmODJjODE5ODkxMjBlZGZhNC5qcGc.webp",
+    "https://www.thomascook.com/gfx/785/490/L2ltYWdlcy9pbWFnZV80MTA3YjQ4MWQwM2E0MDBkOTkxM2FmMjMzMzcwZDQyOS5qcGc.webp",
+    "https://www.thomascook.com/gfx/785/490/L2ltYWdlcy9pbWFnZV81MWViN2Q1Y2Q0OGM0NWUyOTBkOTg5Y2JlODc3ODYxOS5qcGc.webp"
+  ],
+  "title": "Serene resort in South goa",
+  "desc": "Escape to a tranquil oasis at Alila Diwa goa. Surrounded by lush paddy fields and conveniently located near Majorda Beach, this resort offers modern comforts and a rejuvenating atmosphere.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 13320,
+  "rating": 4,
+  "cancel": true,
+  "locationScore": 9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66445d10bf8ee8001f48aedc"
+  },
+  "name": "Acron Waterfront Resort",
+  "type": "resort",
+  "city": "goa",
+  "address": "H. No. 4/123, Sequeira Vaddo, Baga Arpora, goa 403516",
+  "distance": "Approximately 42 km from Dabolim Airport",
+  "photos": [
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/2a/31/0f/acron-waterfront-resort.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/27/c6/a3/acron-waterfront-resort.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/26/9c/61/acron-waterfront-resort.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/5a/8c/da/acron-waterfront-resort.jpg?w=1200&h=-1&s=1"
+  ],
+  "title": "Riverside luxury retreat",
+  "desc": "Experience the perfect blend of luxury and tranquility at Acron Waterfront Resort. Situated along the banks of the Baga River, this resort offers spacious accommodations and breathtaking views.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 11100,
+  "rating": {
+    "$numberDecimal": "4.5"
+  },
+  "cancel": false,
+  "locationScore": 8,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66445d94bf8ee8001f48aedd"
+  },
+  "name": "Sinq Signature",
+  "type": "hotel",
+  "city": "goa",
+  "address": "Plot No. 399/7, Sinquerim, Candolim, goa 403515",
+  "distance": "Approximately 35 km from Dabolim Airport",
+  "photos": [
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/4f/66/3d/sinq-signature.jpg?w=1100&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/03/a5/88/img-20190401-wa0005-largejpg.jpg?w=1100&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/78/35/32/photo3jpg.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/da/0f/fb/sinq-signature.jpg?w=1200&h=-1&s=1"
+  ],
+  "title": "Modern boutique hotel",
+  "desc": "Discover contemporary elegance at Sinq Signature. Located near Candolim Beach, this boutique hotel offers stylish accommodations, gourmet dining, and a vibrant nightlife scene.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 8880,
+  "rating": 5,
+  "cancel": false,
+  "locationScore": 8,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66445e79bf8ee8001f48aede"
+  },
+  "name": "Novotel goa Dona Sylvia Resort",
+  "type": "resort",
+  "city": "goa",
+  "address": "Cavelossim Beach, goa 403731",
+  "distance": "Approximately 37 km from Dabolim Airport",
+  "photos": [
+    "https://www.ahstatic.com/photos/a6p4_ho_00_p_2048x1536.jpg",
+    "https://www.ahstatic.com/photos/a6p4_ho_01_p_2048x1536.jpg",
+    "https://www.ahstatic.com/photos/a6p4_ho_02_p_2048x1536.jpg",
+    "https://www.ahstatic.com/photos/a6p4_ho_03_p_2048x1536.jpg",
+    "https://www.ahstatic.com/photos/a6p4_ho_05_p_2048x1536.jpg"
+  ],
+  "title": "Family-friendly beach resort",
+  "desc": "Experience a memorable family vacation at Novotel goa Dona Sylvia Resort. Nestled along the pristine sands of Cavelossim Beach, this resort offers spacious accommodations, exciting activities, and warm hospitality.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 10360,
+  "rating": 3,
+  "cancel": true,
+  "locationScore": 9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66445fb0bf8ee8001f48aedf"
+  },
+  "name": "Cidade de goa",
+  "type": "hotel",
+  "city": "goa",
+  "address": "Vainguinim Beach, goa 403004",
+  "distance": "Approximately 26 km from Dabolim Airport",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/264465687.jpg?k=6f72f95942cfa636011b6c80c99393285328dbf2a2bd086a53af949fab559daf&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/534405505.jpg?k=719113450168ac87d624b53748d91cda65a587b4ab889587e68b7c5ac6861d38&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/100321945.jpg?k=500b1fbe55240d10ecb88eada4c4bf0f87345b711578c7b8c10e2ee6fcc70223&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/534407847.jpg?k=a4262510a5ea1af56a8eda453e40d37bc0e02d55fac4ab799bdb7b885768ea86&o=&hp=1"
+  ],
+  "title": "goa's beachfront landmark",
+  "desc": "Experience the magic of goa at Cidade de goa. Nestled along the serene Vainguinim Beach, this iconic resort offers elegant accommodations, fine dining, and an array of recreational activities.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 14800,
+  "rating": {
+    "$numberDecimal": "3.5"
+  },
+  "cancel": true,
+  "locationScore": 9.5,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66446303bf8ee8001f48aee8"
+  },
+  "name": "Resort Rio",
+  "type": "resort",
+  "city": "goa",
+  "address": "Near Baga Beach, Tambudki, Arpora, goa 403518",
+  "distance": "Approximately 45 km from Dabolim Airport",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/493996786.jpg?k=a2da005793196998d7c09c9bc1b4111c587a466bff5aaeed3ef45fc26e970f51&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/94162830.jpg?k=239030652b8ea390a39979c7b5818723f3b6ac4b2937490eb1a0316fff40fa42&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/116978446.jpg?k=e877c5eb6b8070d24c115003ab47cf94ccc1c3e7f4cdae28589c6e3c603ca3f9&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/496247306.jpg?k=764ce38d4eefb413d35c0d6c28f817df8b32f080a2066e479349492a2193bf75&o=&hp=1"
+  ],
+  "title": "goa's riverside paradise",
+  "desc": "Escape to tranquility at Resort Rio. Situated along the banks of the Baga River, this resort offers luxurious accommodations, exquisite dining, and rejuvenating spa experiences.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 11840,
+  "rating": {
+    "$numberDecimal": "3.7"
+  },
+  "cancel": false,
+  "locationScore": 9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "664493951d466ae660596b34"
+  },
+  "name": "The Taj Mahal Palace",
+  "type": "hotel",
+  "city": "mumbai",
+  "address": "Apollo Bunder, Colaba, Mumbai, Maharashtra 400001",
+  "distance": "Approximately 25 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://cdn.sanity.io/images/ocl5w36p/production/90109c6281e038094c4adf8ca762563c62132442-5767x3358.tif?w=1600&auto=format&dpr=2",
+    "https://cdn.sanity.io/images/ocl5w36p/production/902b05c821e24ae2e3fea7127cb4c6ccb508c165-5916x3944.jpg?w=1600&auto=format&dpr=2",
+    "https://cdn.sanity.io/images/ocl5w36p/production/ba1b312f45af20b744ee1c033e19ca17fa38aa2f-3777x2489.jpg?w=1600&auto=format&dpr=2",
+    "https://cdn.sanity.io/images/ocl5w36p/production/f5f62901b4c9b020f7c679d09ce0686a819f4dbd-6000x4000.jpg?w=1600&auto=format&dpr=2"
+  ],
+  "title": "Iconic luxury hotel",
+  "desc": "Experience timeless elegance at The Taj Mahal Palace. Overlooking the Arabian Sea, this historic hotel offers opulent accommodations, exquisite dining, and legendary hospitality.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 20000,
+  "rating": 95,
+  "cancel": true,
+  "locationScore": 9.5,
+  "featured": true
+},
+{
+  "_id": {
+    "$oid": "664497741d466ae660596b3e"
+  },
+  "name": "The Oberoi Mumbai",
+  "type": "villa",
+  "city": "mumbai",
+  "address": "Nariman Point, mumbai, Maharashtra 400021",
+  "distance": "Approximately 30 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-mumbai/gallery/featured/mumbai-gallery-featured-1-exterior-724x407.jpg?w=409&extension=webp&hash=bd7249ae1278edc54c7e7093de6bf89a",
+    "https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-mumbai/gallery/featured/mumbai-gallery-featured-2-main-lobby-724x407.jpg?extension=webp",
+    "https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-mumbai/room-and-suites/luxury-room/detail/mumbai-luxury-rooms-suites-724x407.jpg?extension=webp",
+    "https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/the-oberoi-mumbai/room-and-suites/oberoi-executive-suite/detail/2056-oberoi-executive-suite-living-room-the-oberoi-mumbai-2.jpg?extension=webp"
+  ],
+  "title": "Luxury hotel with panoramic views",
+  "desc": "Indulge in luxury at The Oberoi Mumbai. Situated in the heart of the city's business district, this 5-star hotel offers breathtaking views of the Arabian Sea, upscale accommodations, and impeccable service.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 18000,
+  "rating": 4.6,
+  "cancel": true,
+  "locationScore": 9.2,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "664498221d466ae660596b3f"
+  },
+  "name": "Four Seasons Hotel Mumbai",
+  "type": "hotel",
+  "city": "mumbai",
+  "address": "1/136, Dr. E. Moses Road, Worli, mumbai, Maharashtra 400018",
+  "distance": "Approximately 15 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://www.fourseasons.com/alt/img-opt/~80.930.0,0000-1897,5000-1960,0000-1102,5000/publish/content/dam/fourseasons/images/web/MUM/MUM_154_original.jpg",
+    "https://www.fourseasons.com/alt/img-opt/~80.930.29,3333-0,0000-2970,6667-1671,0000/publish/content/dam/fourseasons/images/web/MUM/MUM_370_original.jpg",
+    "https://www.fourseasons.com/alt/img-opt/~80.930.0,0000-194,7500-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/MUM/MUM_067_original.jpg",
+    "https://www.fourseasons.com/alt/img-opt/~80.930.0,0000-582,5000-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/MUM/MUM_371_original.jpg"
+  ],
+  "title": "Contemporary luxury hotel",
+  "desc": "Discover contemporary luxury at Four Seasons Hotel Mumbai. Located in the upscale Worli district, this 5-star hotel offers stylish accommodations, world-class dining, and unparalleled service.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 16000,
+  "rating": 4.5,
+  "cancel": false,
+  "locationScore": 9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "664498fa1d466ae660596b40"
+  },
+  "name": "Grand Hyatt Mumbai Hotel & Residences",
+  "type": "hotel",
+  "city": "mumbai",
+  "address": "Off Western Express Highway, Santacruz East, mumbai, Maharashtra 400055",
+  "distance": "Approximately 2 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2022/04/12/1329/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.jpg/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.16x9.jpg?imwidth=2560",
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/01/28/0322/Grand-Hyatt-Mumbai-P652-Lower-Lobby-Artifact.jpg/Grand-Hyatt-Mumbai-P652-Lower-Lobby-Artifact.16x9.jpg?imwidth=2560",
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/01/28/0322/Grand-Hyatt-Mumbai-P656-Upper-Lobby.jpg/Grand-Hyatt-Mumbai-P656-Upper-Lobby.16x9.jpg?imwidth=2560",
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2022/04/12/1340/MUMGH-P0771-King-Bed-Club-Access-City-View.jpg/MUMGH-P0771-King-Bed-Club-Access-City-View.16x9.jpg?imwidth=2560"
+  ],
+  "title": "Luxurious hotel and residences",
+  "desc": "Experience luxury living at Grand Hyatt Mumbai Hotel & Residences. Situated in the heart of Mumbai, this upscale hotel offers spacious accommodations, world-class amenities, and easy access to the airport.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 15000,
+  "rating": 4.4,
+  "cancel": true,
+  "locationScore": 8.8,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "664499611d466ae660596b41"
+  },
+  "name": "Trident Bandra Kurla",
+  "type": "villa",
+  "city": "mumbai",
+  "address": "C-56, G Block, Bandra Kurla Complex, Bandra East, mumbai, Maharashtra 400098",
+  "distance": "Approximately 7 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://www.tridenthotels.com/-/media/trident-hotel/home-page/Homepage-Resized/Our-Hotels/Desktop-400x528/bkc_400x528.jpg",
+    "https://www.tridenthotels.com/-/media/trident-hotel/home-page/Homepage-Resized/Banner/1920x1080/32-copy.jpg",
+    "https://www.tridenthotels.com/-/media/trident-hotel/all-overview-change/Bandra-kurla/meeting/Orloff--Cullinan-1920x1000.jpg",
+    "https://www.tridenthotels.com/-/media/trident-hotel/trident-bandra-kurla/BKC-Overview/Spa--Wellness/Desktop-765x580/spa-therapy.jpg"
+  ],
+  "title": "Elegant business hotel",
+  "desc": "Experience refined luxury at Trident Bandra Kurla. Located in Mumbai's bustling business district, this 5-star hotel offers elegant accommodations, gourmet dining, and warm hospitality.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 14000,
+  "rating": 4.25,
+  "cancel": true,
+  "locationScore": 8.5,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449a051d466ae660596b42"
+  },
+  "name": "The St. Regis Mumbai",
+  "type": "hotel",
+  "city": "mumbai",
+  "address": "462, Senapati Bapat Marg, Lower Parel, mumbai, Maharashtra 400013",
+  "distance": "Approximately 20 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/467624705.jpg?k=48e601ec8bb2be1c112d06a8803c119bf84135d6db2695ee167669a2f7b7462e&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/480071439.jpg?k=0da079ae5fcdc3b3a1377dad040409d727b43773187b860d0f1c5a82fa837d04&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/504828179.jpg?k=a47f1fc785e21eff02d09ed9d17b572b4923e3e2306a93f3ab72e4c42cd5e9ab&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1280x900/482948980.jpg?k=afd45fda3afeb9eff62b8906a2ec608cd02c8b462db63acd5b3da0e65b1d7e8a&o=&hp=1"
+  ],
+  "title": "Luxury hotel with panoramic views",
+  "desc": "Indulge in luxury at The St. Regis Mumbai. Situated in the upscale Lower Parel district, this 5-star hotel offers panoramic views of the city skyline, opulent accommodations, and bespoke service.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 17000,
+  "rating": 4.35,
+  "cancel": true,
+  "locationScore": 8.7,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449a9c1d466ae660596b43"
+  },
+  "name": "JW Marriott Mumbai Sahar",
+  "type": "apartment",
+  "city": "mumbai",
+  "address": "IA Project Road, Chhatrapati Shivaji International Airport Area, Andheri, mumbai, Maharashtra 400099",
+  "distance": "Located within Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://cache.marriott.com/content/dam/marriott-renditions/BOMSA/bomsa-exterior-0023-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=375px:*",
+    "https://cache.marriott.com/content/dam/marriott-renditions/BOMSA/bomsa-deluxe-room-6466-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=375px:*",
+    "https://cache.marriott.com/content/dam/marriott-renditions/BOMSA/bomsa-panoramic-living-6741-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=375px:*",
+    "https://cache.marriott.com/content/dam/marriott-renditions/BOMSA/bomsa-guest-pool-4520-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=375px:*"
+  ],
+  "title": "Luxury airport hotel",
+  "desc": "Experience luxury at JW Marriott Mumbai Sahar. Conveniently located near the airport, this 5-star hotel offers elegant accommodations, upscale dining, and world-class amenities.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 16500,
+  "rating": 4.3,
+  "cancel": true,
+  "locationScore": 8.6,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449b191d466ae660596b44"
+  },
+  "name": "Holiday Inn Mumbai International Airport",
+  "type": "hotel",
+  "city": "mumbai",
+  "address": "Sakinaka Junction, Andheri East, mumbai, Maharashtra 400072",
+  "distance": "Approximately 3 km from Chhatrapati Shivaji Maharaj International Airport",
+  "photos": [
+    "https://digital.ihg.com/is/image/ihg/holiday-inn-mumbai-4769768439-4x3?wid=733",
+    "https://digital.ihg.com/is/image/ihg/holiday-inn-mumbai-4769767155-4x3?wid=733",
+    "https://digital.ihg.com/is/image/ihg/holiday-inn-mumbai-2531793880-4x3?wid=733",
+    "https://digital.ihg.com/is/image/ihg/holiday-inn-mumbai-4769769334-4x3?wid=733"
+  ],
+  "title": "Airport hotel with modern amenities",
+  "desc": "Relax and unwind at Holiday Inn Mumbai International Airport. Located near the airport, this modern hotel offers comfortable accommodations, dining options, and recreational facilities.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 9000,
+  "rating": 4.2,
+  "cancel": true,
+  "locationScore": 8.4,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449e801d466ae660596b4e"
+  },
+  "name": "Hyatt Regency Ahmedabad",
+  "type": "hotel",
+  "city": "ahmedabad",
+  "address": "Near Vastrapur Lake, Ahmedabad, Gujarat 380015",
+  "distance": "Approximately 15 km from Sardar Vallabhbhai Patel International Airport",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/428035117.jpg?k=df2e741fb45f2cc770035ea1a7ac58427a3af46eb24790a004753e7f8ec2e719&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422196954.jpg?k=11b19f0e395d6f8939463f5948dfcc222fd17cb2d9e4d4b58e3e76354c88a704&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/428035125.jpg?k=7deea8f72e780184270d41bf491edcdf8226914d2d255cff70b312c9a7a38428&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/428035013.jpg?k=5e3f569282e7b7d0ce80a51597532cf63838b38e8087b2b29d139e0343ad9bed&o=&hp=1"
+  ],
+  "title": "Luxury hotel in Ahmedabad",
+  "desc": "Experience luxury and sophistication at Hyatt Regency Ahmedabad. Located near Vastrapur Lake, this 5-star hotel offers elegant accommodations, fine dining, and warm hospitality.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 12000,
+  "rating": 4.6,
+  "cancel": true,
+  "locationScore": 9.2,
+  "featured": true
+},
+{
+  "_id": {
+    "$oid": "66449ed61d466ae660596b4f"
+  },
+  "name": "The Fern An Ecotel Hotel, Ahmedabad",
+  "type": "hotel",
+  "city": "ahmedabad",
+  "address": "Near S.G. Highway, Ahmedabad, Gujarat 380015",
+  "distance": "Approximately 20 km from Sardar Vallabhbhai Patel International Airport",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/40923363.jpg?k=cc02447fb2d020bb0b9b7b524eaf2216666c075efd3a5d933e4071a2e00bddbf&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/39091085.jpg?k=4d1ae895fb256030f31464f2bdfd62ed6e05f8986ae1d74d556fa5d2650c9d35&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/39091103.jpg?k=edc13ba1f55849a235d3b25cee15c4003b197d53bbd214d6130b54286970fa8b&o=&hp=1",
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/436200753.jpg?k=0ae9315687059badc17921d0dffbd30a7c62cd9d12c345f7e74a11ecd96b25dd&o=&hp=1"
+  ],
+  "title": "Eco-friendly hotel in Ahmedabad",
+  "desc": "Stay in eco-luxury at The Fern An Ecotel Hotel, Ahmedabad. Nestled near S.G. Highway, this environmentally conscious hotel offers comfortable accommodations, sustainable dining, and modern amenities.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 9500,
+  "rating": 4.4,
+  "cancel": true,
+  "locationScore": 9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449f341d466ae660596b50"
+  },
+  "name": "Crowne Plaza Ahmedabad City Centre",
+  "type": "hotel",
+  "city": "ahmedabad",
+  "address": "S.G. Road, Ahmedabad, Gujarat 380015",
+  "distance": "Approximately 17 km from Sardar Vallabhbhai Patel International Airport",
+  "photos": [
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f6/54/90/facade.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/00/76/fc/guest-room.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/00/76/ed/inspiration-pre-function.jpg?w=1200&h=-1&s=1",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/00/76/ef/rang-authentic-gujarati.jpg?w=1200&h=-1&s=1"
+  ],
+  "title": "City centre hotel in Ahmedabad",
+  "desc": "Experience luxury and convenience at Crowne Plaza Ahmedabad City Centre. Situated on S.G. Road, this 5-star hotel offers upscale accommodations, dining options, and easy access to the city's attractions.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 13000,
+  "rating": 4.7,
+  "cancel": true,
+  "locationScore": 9.4,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449f8d1d466ae660596b51"
+  },
+  "name": "Radisson Blu Hotel Ahmedabad",
+  "type": "hotel",
+  "city": "ahmedabad",
+  "address": "Near Panchvati Cross Roads, Ambawadi, Ahmedabad, Gujarat 380006",
+  "distance": "Approximately 16 km from Sardar Vallabhbhai Patel International Airport",
+  "photos": [
+    "https://media.radissonhotels.net/image/radisson-blu-hotel-ahmedabad/exteriorview/16256-116508-f79466178_3xl.jpg?impolicy=GalleryLightboxFullscreen",
+    "https://media.radissonhotels.net/image/radisson-blu-hotel-ahmedabad/lobbyview/16256-116508-f64876139_3xl.jpg?impolicy=GalleryLightboxFullscreen",
+    "https://media.radissonhotels.net/image/radisson-blu-hotel-ahmedabad/guestroom/16256-116508-f79466258_3xl.jpg?impolicy=GalleryLightboxFullscreen",
+    "https://media.radissonhotels.net/image/radisson-blu-hotel-ahmedabad/pooloutdoor/16256-116508-f79467558_3xl.jpg?impolicy=GalleryLightboxFullscreen"
+  ],
+  "title": "Contemporary hotel in Ahmedabad",
+  "desc": "Indulge in contemporary comfort at Radisson Blu Hotel Ahmedabad. Located near Panchvati Cross Roads, this 4-star hotel offers stylish accommodations, dining options, and modern amenities.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 9000,
+  "rating": 4.2,
+  "cancel": true,
+  "locationScore": 8.4,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "66449ff31d466ae660596b52"
+  },
+  "name": "Lemon Tree Premier, Ahmedabad",
+  "type": "hotel",
+  "city": "ahmedabad",
+  "address": "Off Nehru Bridge, Sabarmati Riverfront, Ahmedabad, Gujarat 380001",
+  "distance": "Approximately 15 km from Sardar Vallabhbhai Patel International Airport",
+  "photos": [
+    "https://www.lemontreehotels.com/uploads/hotelslider/663caa58408ce1.jpg",
+    "https://www.lemontreehotels.com/uploads/hotelslider/663caa611f5392.jpg",
+    "https://www.lemontreehotels.com/uploads/hotelslider/663caa74a9eed4.jpg",
+    "https://www.lemontreehotels.com/uploads/hotelslider/663caa6c15c883.jpg"
+  ],
+  "title": "Riverside hotel in Ahmedabad",
+  "desc": "Stay in comfort at Lemon Tree Premier, The Atrium, Ahmedabad. Located on the banks of Sabarmati Riverfront, this hotel offers comfortable accommodations, dining options, and scenic views.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 8000,
+  "rating": 4,
+  "cancel": true,
+  "locationScore": 8,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6644a0631d466ae660596b53"
+  },
+  "name": "Fortune Park Ahmedabad",
+  "type": "hotel",
+  "city": "ahmedabad",
+  "address": "Near Gujarat College, Ellisbridge, Ahmedabad, Gujarat 380006",
+  "distance": "Approximately 15 km from Sardar Vallabhbhai Patel International Airport",
+  "photos": [
+    "https://www.itchotels.com/content/dam/itchotels/in/umbrella/fortune/hotels/fortunepark-ahmedabad/images/overview-landing-page/overview/desktop/hotel-facade.jpg",
+    "https://www.itchotels.com/content/dam/itchotels/in/umbrella/fortune/hotels/fortunepark-ahmedabad/gallery/overview/lobby.jpg",
+    "https://www.itchotels.com/content/dam/itchotels/in/umbrella/fortune/hotels/fortunepark-ahmedabad/gallery/accommodation/suite.jpg",
+    "https://www.itchotels.com/content/dam/itchotels/in/umbrella/fortune/hotels/fortunepark-ahmedabad/gallery/dining/gardenia.jpg"
+  ],
+  "title": "Business hotel in Ahmedabad",
+  "desc": "Stay in comfort at Fortune Park Ahmedabad. Located near Gujarat College, this hotel offers comfortable accommodations, dining options, and business facilities for corporate travelers.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 8500,
+  "rating": 4.1,
+  "cancel": true,
+  "locationScore": 8.2,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6644a3ef1d466ae660596b5b"
+  },
+  "name": "Taj Palace, New Delhi",
+  "type": "hotel",
+  "city": "delhi",
+  "address": "2, Sardar Patel Marg, Diplomatic Enclave, New Delhi, Delhi 110021",
+  "distance": "Approximately 10 km from Indira Gandhi International Airport",
+  "photos": [
+    "https://cdn.sanity.io/images/ocl5w36p/production/f7f538cd43aa55f041fbc4590927e62b8ac24939-3840x1860.jpg?w=1600&auto=format&dpr=2",
+    "https://cdn.sanity.io/images/ocl5w36p/production/012e80bbff449e005178d5fed0aece573e019477-6720x4480.jpg?w=1600&auto=format&dpr=2",
+    "https://cdn.sanity.io/images/ocl5w36p/production/6f2165e934787307ab0d7085b3e53159f3998e1d-6720x4480.jpg?w=1600&auto=format&dpr=2",
+    "https://cdn.sanity.io/images/ocl5w36p/production/0004d1af31966de4b3f7109c9ea5b63917352a10-7913x5464.jpg?w=1600&auto=format&dpr=2"
+  ],
+  "title": "Iconic luxury hotel",
+  "desc": "Experience timeless luxury at Taj Palace, New Delhi. Set amidst lush gardens, this 5-star hotel offers opulent accommodations, exquisite dining, and legendary hospitality.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 18000,
+  "rating": 4.5,
+  "cancel": true,
+  "locationScore": 9,
+  "featured": false
+},
+{
+  "_id": {
+    "$oid": "6644a4671d466ae660596b5c"
+  },
+  "name": "Hyatt Regency Delhi",
+  "type": "hotel",
+  "city": "delhi",
+  "address": "Bhikaiji Cama Place, Ring Road, New Delhi, Delhi 110066",
+  "distance": "Approximately 15 km from Indira Gandhi International Airport",
+  "photos": [
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/01/23/0953/Hyatt-Regency-Delhi-P312-Facade.jpg/Hyatt-Regency-Delhi-P312-Facade.16x9.jpg?imwidth=2560",
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/02/28/0141/DELRD-P0384-Twin-Club-Access.jpg/DELRD-P0384-Twin-Club-Access.16x9.jpg?imwidth=1920",
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1515/DELRD-P162-Lobby.jpg/DELRD-P162-Lobby.16x9.jpg?imwidth=2560",
+    "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/05/04/0720/DELRD-P0476-Swimming-Pool-Top-View.jpg/DELRD-P0476-Swimming-Pool-Top-View.16x9.jpg?imwidth=2560"
+  ],
+  "title": "Luxury hotel in South Delhi",
+  "desc": "Discover luxury and comfort at Hyatt Regency Delhi. Located in the heart of South Delhi, this 5-star hotel offers spacious accommodations, upscale dining, and rejuvenating spa treatments.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 16000,
+  "rating": 4.4,
+  "cancel": true,
+  "locationScore": 8.8,
+  "featured": true
+},
+{
+  "_id": {
+    "$oid": "6644a4d91d466ae660596b5d"
+  },
+  "name": "The Imperial New Delhi",
+  "type": "hotel",
+  "city": "delhi",
+  "address": "Janpath Lane, Connaught Place, New Delhi, Delhi 110001",
+  "distance": "Approximately 18 km from Indira Gandhi International Airport",
+  "photos": [
+    "https://theimperialindia.com/wp-content/uploads/elementor/thumbs/4208-Deco-suite-main-page-and-also-slider-image-1-scaled-qce4l3290kqqznqmbj6cu9aj0ktzblxjxbjpbax9r4.jpg",
+    "https://theimperialindia.com/wp-content/uploads/elementor/thumbs/4220-accomodation-page-Deco-Suite-main-image-and-also-on-the-Deco-suite-page-scaled-qce4l32bgabm7o235cwp2ez93998n4czowq1m3vptc.jpg",
+    "https://theimperialindia.com/wp-content/uploads/elementor/thumbs/01-Grand-Heritage-page-next-to-the-text-qce4kxfaba3ikho09bjzjaldo2gtlsiibwbs6d51oy.jpg",
+    "https://theimperialindia.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2023-09-04-at-12.42.15-PM-qce4lmszvion4o9gg2j4b5coepvm01x5q6l91n2uc0.jpeg"
+  ],
+  "title": "Historic luxury hotel",
+  "desc": "Step into history at The Imperial New Delhi. Built in 1931, this iconic hotel offers colonial-style accommodations, fine dining, and unmatched hospitality in the heart of Connaught Place.",
+  "rooms": [
+    "663fa905305ae97405007397",
+    "663fa936305ae974050073a1",
+    "663fa99a305ae974050073a6"
+  ],
+  "cheapestPrice": 17000,
+  "rating": 4.4,
+  "cancel": true,
+  "locationScore": 8.9,
+  "featured": false
+}]

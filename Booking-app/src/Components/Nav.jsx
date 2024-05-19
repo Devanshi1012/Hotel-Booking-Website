@@ -68,7 +68,7 @@ function Nav() {
                         Logout
                       </button>
                       <Link
-                        to={"/profile/:id"}
+                        to={"/profile"}
                         className="block w-full text-left p-2 border-t border-gray-500"
                       >
                         Profile

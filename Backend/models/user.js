@@ -1,9 +1,22 @@
+import { Int32 } from "mongodb";
 import mongoose from "mongoose";
 import { Schema } from "mongoose";
 
 const bookingSchema = new Schema({
-  hotelID: {
-    type: mongoose.Schema.Types.ObjectId,
+  hotelName: {
+    type: String,
+    required: true,
+  },
+  hotelCity: {
+    type: String,
+    required: true,
+  },
+  hotelAddress: {
+    type: String,
+    required: true,
+  },
+  hotelType: {
+    type: String,
     required: true,
   },
   start: {
@@ -13,6 +26,21 @@ const bookingSchema = new Schema({
   end: {
     type: Date,
     required: true,
+  },
+  adults: {
+    type: Number,
+    required: true,
+    integer: true,
+  },
+  kids: {
+    type: Number,
+    required: true,
+    integer: true,
+  },
+  rooms: {
+    type: Number,
+    required: true,
+    integer: true,
   },
 });
 const UserSchema = new mongoose.Schema(

@@ -27,7 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/api/hotel/:id" element={<Hotel />} />
-          <Route path="/profile/:id" element={<Profile />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/flights" element={<Flights />} />
         </Routes>
       <Footer />

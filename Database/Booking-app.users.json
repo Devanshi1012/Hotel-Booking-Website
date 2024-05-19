@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "663b948394ea432bb65a9121"
+  },
+  "username": "xyz",
+  "email": "xyz@gmail.com",
+  "password": "$2a$10$tbZCi4NiWic0pHEpUZ75juOHbNwHO/xixJPSk44PdsgZxwf2VprHa",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-05-08T15:04:35.753Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T15:04:35.753Z"
+  },
+  "__v": 0,
+  "bookings": []
+},
+{
+  "_id": {
+    "$oid": "664077b49efb741bb35ccbd5"
+  },
+  "username": "anjali",
+  "email": "anjali@gmail.com",
+  "password": "$2a$10$BPOhaoPAgWq3lklNNeNlY.C.4bOMP6OwFdQOLNGjsL6tzCI.E8CK.",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-05-12T08:03:00.989Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T08:03:00.989Z"
+  },
+  "__v": 0,
+  "bookings": []
+},
+{
+  "_id": {
+    "$oid": "6640ff0ed1f7adcf68b0b403"
+  },
+  "username": "anu",
+  "email": "anu1@gmail.com",
+  "password": "$2a$10$bMmNe1zqSCVaa.LRTDmFve8GugLZyNd2.yr6ajVp.lAliLnS3xkSq",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-05-12T17:40:30.366Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-12T17:40:30.366Z"
+  },
+  "__v": 0,
+  "bookings": []
+},
+{
+  "_id": {
+    "$oid": "6641ca6cd1f7adcf68b0b6cf"
+  },
+  "username": "Devanshi",
+  "email": "devanshi.n.singh@gmail.com",
+  "password": "$2a$10$.ZseD96dfxiYdofNuFjpfuJ.QZm80g6QzZPu/Kst1GG7x2mf7VRea",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-05-13T08:08:12.454Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-13T08:08:12.454Z"
+  },
+  "__v": 0,
+  "bookings": []
+},
+{
+  "_id": {
+    "$oid": "66472815ef817f06cb355775"
+  },
+  "username": "Meet",
+  "email": "meet@gmail.com",
+  "password": "$2a$10$lujPHaKu/lryJ6ONoMxnd./CDwqFCIZ/hZHdL9TJh2CGlAB7RAJdy",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-05-17T09:49:09.124Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-19T16:29:49.625Z"
+  },
+  "__v": 51,
+  "bookings": []
+}]

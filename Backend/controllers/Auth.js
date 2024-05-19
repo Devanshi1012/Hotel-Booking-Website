@@ -99,16 +99,14 @@ export const bookings = async (req, res, next) => {
     const newStart = new Date(req.body.array.start).toISOString();
     const newEnd = new Date(req.body.array.end).toISOString();
 
-    // Convert hotelID to ObjectId if necessary
-    const newHotelID = new mongoose.Types.ObjectId(req.body.array.hotelID);
-
     // Check if the booking already exists
     const bookingExists = user.bookings.some((booking) => {
       const existingStart = new Date(booking.start).toISOString();
       const existingEnd = new Date(booking.end).toISOString();
 
       console.log("Comparing:", {
-        hotelID: booking.hotelID.toString(),
+        hotelName: booking.hotelName,
+        hotelCity: booking.hotelCity,
         existingStart,
         existingEnd,
         newStart,
@@ -116,7 +114,8 @@ export const bookings = async (req, res, next) => {
       });
 
       return (
-        booking.hotelID.equals(newHotelID) &&
+        booking.hotelName === req.body.array.hotelName &&
+        booking.hotelCity === req.body.array.hotelCity &&
         existingStart === newStart &&
         existingEnd === newEnd
       );
@@ -128,9 +127,15 @@ export const bookings = async (req, res, next) => {
 
     // Push the new booking
     user.bookings.push({
-      hotelID: newHotelID,
+      hotelName: req.body.array.hotelName,
+      hotelCity: req.body.array.hotelCity,
+      hotelAddress: req.body.array.hotelAddress,
+      hotelType: req.body.array.hotelType,
       start: new Date(req.body.array.start),
       end: new Date(req.body.array.end),
+      adults: req.body.array.adults,
+      kids: req.body.array.kids,
+      rooms: req.body.array.rooms,
     });
     const result = await user.save();
 
@@ -138,5 +143,53 @@ export const bookings = async (req, res, next) => {
   } catch (error) {
     console.error("Error adding booking:", error);
     next(error);
+  }
+};
+
+export const getbookings = async (req, res, next) => {
+  try {
+    const { username } = req.body;
+    if (!username) {
+      return res.status(400).json({ message: "Username is required" });
+    }
+    console.log({ username });
+    const user = await User.findOne({
+      _id: new mongoose.Types.ObjectId(username),
+    }); // Assuming username is unique
+    console.log({ user });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    console.log("User Booking", user.bookings);
+    res.status(200).json(user.bookings);
+  } catch (error) {
+    console.error("Error fetching bookings:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+export const deletebookings = async (req, res, next) => {
+  console.log("OK");
+  try {
+    const { userId, bookingId } = req.params;
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    const bookingIndex = user.bookings.findIndex(
+      (booking) => booking._id.toString() === bookingId
+    );
+    if (bookingIndex === -1) {
+      return res.status(404).json({ message: "Booking not found" });
+    }
+
+    user.bookings.splice(bookingIndex, 1); // Remove the booking
+    await user.save(); // Save the updated user document
+
+    res.status(200).json({ message: "Booking deleted successfully" });
+  } catch (error) {
+    console.error("Error deleting booking:", error);
+    res.status(500).json({ message: "Server error" });
   }
 };

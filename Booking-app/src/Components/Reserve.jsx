@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useContext } from "react";
 import { SearchContext } from "../context/SearchContext";
 import { useNavigate } from "react-router-dom";
+import Book from "./Book";
 
 function Reserve({ setOpen, hotelId }) {
   const [selectedRooms, setSelectedRooms] = useState([]);
@@ -58,7 +59,6 @@ function Reserve({ setOpen, hotelId }) {
         })
       );
       setOpen(false);
-      navigate(`/profile/${hotelId}`);
     } catch (error) {}
   };
 
@@ -108,6 +108,7 @@ function Reserve({ setOpen, hotelId }) {
           >
             Reserve Now
           </button>
+          <Book />
         </div>
       </div>
     </>

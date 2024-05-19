@@ -2,7 +2,6 @@ import useFetch from "../hooks/useFetch";
 
 const FeaturedProperties = () => {
   const { data, loading, error } = useFetch("/api/hotel?featured=true&limit=5");
-
   return (
     <div className=" m-20 flex gap-20">
       {loading ? (
@@ -15,14 +14,14 @@ const FeaturedProperties = () => {
               <span className=" text-black font-bold">{item.name}</span>
               <span className="capitalize font-light">{item.city}</span>
               <span className=" font-medium">
-                Starting from Rs{item.cheapestPrice}
+                Starting from Rs {item.cheapestPrice}
               </span>
               {item.rating && (
                 <div className="flex items-center">
-                  <button className="bg-blue-700 text-white border-none px-3 font-bold mr-2">
+                  <button className="bg-blue-700 text-white border-none px-3 font-bold mr-2 rounded-md">
                     {item.rating}
                   </button>
-                  <span className="text-sm">Excellent</span>
+                  <span className="text-sm font-semibold">Excellent</span>
                 </div>
               )}
             </div>
